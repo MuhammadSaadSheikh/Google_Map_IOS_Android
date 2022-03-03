@@ -12,6 +12,21 @@ const styles = StyleSheet.create({
         flex: 1,
         width: Metrics.width,
         height: Metrics.height
+    },
+    bottomTab: {
+        width: '100%',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingHorizontal: 25,
+        paddingVertical: 20,
+        backgroundColor: '#1233',
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
+    },
+    timeContainer: {
+        justifyContent: 'center',
+        alignItems: 'center'
     }
 })
 
